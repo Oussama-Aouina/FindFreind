@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
                 SmsManager smsManager = SmsManager.getDefault();
                 smsManager.sendTextMessage(num,
                         null, //mon numero
-                        "Hello: send me your position",
+                        "FINDFREINDS: Envoyer moi votre position",
                         null,
                         null);
 
